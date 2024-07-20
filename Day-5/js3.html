@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewprt" content="width=deviece-width, initial-scale=1">
+        <title>
+
+        </title>
+    </head>
+    <body>
+
+        <button onclick="chaitanya()">Show Me</button>
+        <p id="re"></p>
+    </body>
+    <script>
+        var name="hi"
+        function chaitanya()
+        {
+        
+          let i,j;
+          for(i=97;i<=122;i++)
+            {
+                for(j=97;j<=i;j++)
+                {
+                    document.getElementById('re').innerHTML+=String.fromCharCode(j)+" ";
+                }
+                document.getElementById('re').innerHTML+="<br/>";
+            }  
+        }
+    </script>
+    
+</html>
